@@ -11,28 +11,62 @@
 		
 		<h1>How git works</h1>
 		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li>Keeps track of incremental changes to files and a their history</li>
+			<li>Each repository is a mirror of the server</li>
+			<li>If the server goes down it can be restored from any clone</li>
 		</ul>
+		<img src="http://git-scm.com/book/en/v2/book/01-introduction/images/distributed.png" height="50%" width="50%"/>
 		
 		<h1>Why use git vs others</h1>
 		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li>Git is distributed</li>
+			<li>This means that you can work offline</li>
+			<li>Git init will make a local repo that can be used locally and does not need to be hosted</li>
 		</ul>
-		
+
 		<h1>How do I git?</h1>
-		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-		</ul>
-		
+			Two different ways to create a repo on your machine:
+		<p>
+			<h4>Preexisting Directories</h4>
+			<pre> git init </pre>
+			Later a remote repository can be added with.
+			<pre> git remote add origin https://github.com/user/repo.git</pre>
+			<h4>Cloning</h4>
+
+			If you have a preexisting repository you can clone it with
+			<pre>git clone [url]</pre>
+			This will create a folder with the repo name and copy the git repository.
+		</p>
+
+		git status
+
+		git branch
+
+		git checkout
+
+		git commit
+
+		usage: git add [options] [--] ...
+
+			-n, --dry-run         dry run
+			-v, --verbose         be verbose
+
+			-i, --interactive     interactive picking
+			-p, --patch           select hunks interactively
+			-e, --edit            edit current diff and apply
+			-f, --force           allow adding otherwise ignored files
+			-u, --update          update tracked files
+			-N, --intent-to-add   record only the fact that the path will be added later
+
+			-A, --all             add changes from all tracked and untracked files
+			--ignore-removal      ignore paths removed in the working tree (same as --no
+			-all)
+			--refresh             don't add, only refresh the index
+			--ignore-errors       just skip files which cannot be added because of error
+			s
+			--ignore-missing      check if - even missing - files are ignored in dry run
+
+
 		<h1>Merges</h1>
 		<ul>
 			<li></li>
