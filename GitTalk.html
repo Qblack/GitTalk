@@ -3,6 +3,7 @@
 	<head>
 		<title>Git Talk by PHI</title>
 		<link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.1/cerulean/bootstrap.min.css" rel="stylesheet">
+		<link href="style.css" rel="stylesheet">
 	</head>
 	<body>
 		<div class="container-fluid">
@@ -162,19 +163,26 @@
 					<h4>Git Mv</h4>
 						<p>To rename files or move them use <code>git mv [source] [destination]</code>.</p>
 
-
-
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-6 col-md-offset-3">
-					<h2>Merge Conflicts</h2>
-					<ul>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-					</ul>
+					<h2>Merging</h2>
+					<p>If your commits are structured wrong you may end up with merge conflicts.
+						Multiple developers changing the same line of code may cause this, so if possible try to work in different areas.</p>
+							<img src="img/its-dangerous-to-go-alone-take-this.jpg" width="100%" height="100%">
+					<p>Merges may be scary but there are tools to help. My personal favorite is
+						<a href="http://kdiff3.sourceforge.net/">Kdiff3</a></p>
+					<p>KDiff will allow you to go through each conflict and either choose the change you want or edit the changes
+						until you are happy. Once complete save and exit, git will now be able to finish its merge.</p>
+					<p>If you want to setup Kdiff3 as your default merge tool run the following commands to modify your .gitconfig</p>
+<pre>git config --global merge.tool Kdiff3
+git config --global mergetool.kdiff3.keepBackup false
+git config --global mergetool.kdiff3.path "C:\Program Files\KDiff3\kdiff3.exe"</pre>
+
+
+
+
 				</div>
 			</div>
 			<div class="row">
