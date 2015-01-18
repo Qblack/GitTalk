@@ -186,6 +186,25 @@ git config --global mergetool.kdiff3.path "C:\Program Files\KDiff3\kdiff3.exe"</
 			</div>
 			<div class="row">
 				<div class="col-md-6 col-md-offset-3">
+					<h2>Git Workflow</h2>
+					<p>There are several different workflows that people use for git based upon their environment.</p>
+					<p>Some best practices I have picked up over the years are:</p>
+					<h4>Single Dev</h4>
+						<p>Until deploy I do most of my stuff on master branching off for specific features that will
+						affect the rest of my project.</p>
+						<p>Once Deployed, I tend to have  test branch to ensure that anything merged from my feature
+						or topic branches works before pushing to master.</p>
+					<h4>Small group project</h4>
+						<p>Master should remain stable, and developers should work on their own feature branches.</p>
+					<h4>Bigger or more official groups</h4>
+						<p>It is a good idea for larger groups to have developers perform pull requests.
+						The person of charge of handling pull requests will then review the changes, and provide
+						feed back before the changes will be allowed into the reop.</p>
+
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
 					<h2>The Files</h2>
 						<p>Git has several files associated with it.</p>
 					<dl>
@@ -202,13 +221,12 @@ git config --global mergetool.kdiff3.path "C:\Program Files\KDiff3\kdiff3.exe"</
 			</div>
 			<div class="row">
 				<div class="col-md-6 col-md-offset-3">
-					<h2>Github</h2>
-					<ul>
-						<li>Forking</li>
-						<li>Site</li>
-						<li>Workflow</li>
-						<li></li>
-					</ul>
+					<h2><a href="http://www.github.com">Github</a></h2>
+					<p>Github is a hosting platform for git repos, users get unlimited public repos.</p>
+					<p>On github you can <b>fork</b> other repos which essentially makes a copy of the repo on your page.
+					This allows you to make changes and then do pull requests if you want to share them.</p>
+					<p>Repos are also entitled to site <a href="https://pages.github.com/">pages</a> which can be used to
+						run the page.</p>
 				</div>
 			</div>
 			<div class="row">
@@ -217,8 +235,7 @@ git config --global mergetool.kdiff3.path "C:\Program Files\KDiff3\kdiff3.exe"</
 					<ul>
 						<li><a href="https://education.github.com/pack">GitHub For Education</a></li>
 						<li><a href="http://www.jetbrains.com/student/">JetBrains for Students</a></li>
-						<li>If the course requires eclipse please make sure that you convert the projects properly.</li>
-
+						<li class="text-danger">If the course requires eclipse please make sure that you convert the projects properly.</li>
 					</ul>
 				</div>
 			</div>
@@ -230,8 +247,8 @@ git config --global mergetool.kdiff3.path "C:\Program Files\KDiff3\kdiff3.exe"</
 						<li><a href="http://git-scm.com/book/en/v2">Git Book</a></li>
 						<li><a href="https://www.atlassian.com/git/tutorials/">Atlassian Tutorials</a></li>
 						<li><a href="https://try.github.io/levels/1/challenges/1">Try Git</a></li>
-						https://windows.github.com/
-						<a href="https://github.com/github/gitignore">
+						<li><a href="https://windows.github.com/">GitHub Gui</a></li>
+						<a href="https://github.com/github/gitignore">Git Ignore Samples</a>
 					</ul>
 				</div>
 			</div>
