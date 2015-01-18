@@ -182,18 +182,22 @@ git config --global mergetool.kdiff3.path "C:\Program Files\KDiff3\kdiff3.exe"</
 					<p>To use the merge tool use <code>git mergetool</code> then use the UI to resolve any issues.</p>
 				<p>If there are orig or back up files feel free to delete them or just add them to your .gitignore</p>
 
-
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-6 col-md-offset-3">
 					<h2>The Files</h2>
-					<ul>
-						<li>Global Config</li>
-						<li>Local Config</li>
-						<li>Git Ignore</li>
-						<li></li>
-					</ul>
+						<p>Git has several files associated with it.</p>
+					<dl>
+						<dt>.gitconfig</dt>
+						<dd>Usually in your C:\Users\User folder. This file contains any global settings you want git to use.</dd>
+
+						<dt>Repo specific .git/config</dt>
+						<dd>The .git folder keeps track of the git settings for that repo locally. Such as the origin url,
+						and the current branch.</dd>
+						<dt>.gitignore</dt>
+						<dd>The git ignore files use wild cards and regex to determine what files you want git to ignore.</dd>
+					</dl>
 				</div>
 			</div>
 			<div class="row">
@@ -227,6 +231,7 @@ git config --global mergetool.kdiff3.path "C:\Program Files\KDiff3\kdiff3.exe"</
 						<li><a href="https://www.atlassian.com/git/tutorials/">Atlassian Tutorials</a></li>
 						<li><a href="https://try.github.io/levels/1/challenges/1">Try Git</a></li>
 						https://windows.github.com/
+						<a href="https://github.com/github/gitignore">
 					</ul>
 				</div>
 			</div>
