@@ -33,10 +33,10 @@ document.onkeydown = function (evt) {
     "use strict";
     evt = evt || window.event;
     switch (evt.keyCode) {
-        case 104: //8
+        case 37: //<-
             MoveUp();
             break;
-        case 98: //2
+        case 39: //->
             MoveDown();
             break;
     }
