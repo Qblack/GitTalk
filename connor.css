@@ -13,7 +13,9 @@ h1 {
 
 /* line 11, C:/Users/Connor/Documents/Axiomatic Design/GitTalk/connor.sass */
 h3 {
-  font-size: 16px; }
+  font-size: 16px; 
+  font-weight: bold;
+  }
 
 /* line 14, C:/Users/Connor/Documents/Axiomatic Design/GitTalk/connor.sass */
 img {
