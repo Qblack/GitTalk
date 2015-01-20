@@ -1,0 +1,6 @@
+﻿Key.Left = Wiimote1.Left or Wiimote.Up
+
+Key.Right = Wiimote.Right or Wiimote.Down
+
+
+

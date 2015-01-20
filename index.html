@@ -69,18 +69,21 @@
 				<div class="col-xs-12 col-md-8 col-md-offset-2 slide">
 					<div class="slide-content">
 						<h1>How do I git?</h1>
-
+						<h2>Git Installation</h2>
+							<p><a href="http://git-scm.com/downloads">Grab Git</a><p>
+							<p>This will install git on the command line. For Linux/Mac Users, git might be pre-installed with your OS already.</p>
+							<p>To make sure that git is properly installed, fire up the command line and type in <code>git</code></p>
 						<h2>Setting up a repo</h2>
-						Two different ways to create a repo on your machine:
-						<h3>Preexisting Directories</h3>
-						<code> git init </code>
-						Later a remote repository can be added with.
-						<code> git remote add origin https://github.com/user/repo.git</code>
-						<h3>Cloning</h3>
-
-						If you have a preexisting repository you can clone it with
-						<code>git clone [url]</code>
-						This will create a folder with the repo name and copy the git repository.
+							Two different ways to create a repo on your machine:
+							<h3>Preexisting Directories</h3>
+								<code> git init </code>
+								Later a remote repository can be added with.
+								<code> git remote add origin https://github.com/user/repo.git</code>
+							<h3>Cloning</h3>
+								If you have a preexisting repository you can clone it with
+								<code>git clone [url]</code>
+								This will create a folder with the repo name and copy the git repository.
+								e.g. <code>git clone https://github.com/user/repo.git</code>
 					</div>
 				</div>
 			</div>
@@ -99,11 +102,16 @@
 								Displays the current branch, and how it compares to the online version.<br></p>
 								<code>git status</code>
 								<img src="img/git_status.PNG" class="center-block img-responsive" alt="Git status example">
-
 								<h5>Results divided into 3 sections:</h5>
-								<b>Changes to be committed</b> these changes will be committed when <code>git commit</code> is used.<br>
-								<b>Changes not staged for commit</b> these are changes to files already registered with the repo, but need to be <code>git add</code>ed.<br>
-								<b>Untracked files</b> these are changes on files that are not yet tracked by the repo, they will also need to be added.<br>
+								<dl>
+									<dt>Changes to be committed</dt>
+									<dd>these changes will be committed when <code>git commit</code> is used.</dd>
+									<dt>Changes not staged for commit</dt>
+									<dd>these are changes to files already registered with the repo, but need to be <code>git add</code>ed.</dd>
+									<dt>Untracked files</dt>
+									<dd>these are changes on files that are not yet tracked by the repo, they will also need to be added.</dd>
+
+								</dl>
 						</div>
 					</div>
 					<div class="row">
@@ -332,6 +340,7 @@
 							<li><a href="https://try.github.io/levels/1/challenges/1">Try Git</a></li>
 							<li><a href="https://windows.github.com/">GitHub Gui</a></li>
 							<li><a href="https://github.com/github/gitignore">Git Ignore Samples</a></li>
+							<li><a href="http://www.git-tower.com/blog/git-cheat-sheet-detail/">Git Cheatsheet</a></li>
 						</ul>
 					</div>
 				</div>
