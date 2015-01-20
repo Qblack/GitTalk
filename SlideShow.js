@@ -6,9 +6,10 @@ var sections = $('.slide')
 sections.css("height", windowHeight);
 
 
+
 $(window).resize(function () {
     "use strict";
-    var windowHeight = $(window).height(), windowWidth = $(window).width(), centerHeight = windowHeight / 2, centerWidth = windowWidth / 2;
+    var windowHeight = $(window).height(), windowWidth = $(window).width();
     sections.css("height", windowHeight);
 });
 
@@ -19,13 +20,13 @@ function MoveUp() {
     current = Math.min(sections.length-1, Math.max(current, 0));
 
     $("html, body").animate({ scrollTop: sections.eq(current).offset().top});
+
 }
 
 function MoveDown() {
     "use strict";
     current += 1;
     current = Math.min(sections.length-1, Math.max(current, 0));
-    console.log(sections.eq(current));
     $("html, body").animate({ scrollTop: sections.eq(current).offset().top});
 }
 
