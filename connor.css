@@ -36,3 +36,10 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.welcome {
+  text-align: center;
+  top: 0;
+  left: 0;
+  transform: translate(0, 0);
+}
