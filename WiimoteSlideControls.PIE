@@ -1,6 +1,21 @@
 ﻿Key.Left = Wiimote1.Left or Wiimote.Up
 
 Key.Right = Wiimote.Right or Wiimote.Down
+Key.Enter = Wiimote.A
+Key.BackSpace = Wiimote.B
+
+Key.LeftWindows + Key.One = Wiimote.Home
+Key.LeftWindows + Key.Two = Wiimote.One
+Key.LeftWindows + Key.Three = Wiimote.Two
+
+Key.LeftControl +Key.Tab = Wiimote.Plus
+Key.Tab = Wiimote.Minus
+
+
+
+
+
+
 
 
 
